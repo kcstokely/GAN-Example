@@ -3,9 +3,11 @@
 '''
     This is code meant as an illustration on setting up a Generative Adversarial Network.
     
-    Both Generator and Discriminator are set up as deep feed-forwards networks (MLP's).
+    It uses Theano to set up the networks, and Foxhound to optimize parameter updates.
+    
+    Both Generator and Discriminator are set up as deep feed-forward networks (MLP's).
 
-    We use MNIST just for show.  One really shouldn't be using MLP's for image tasks.
+    We use MNIST for show... one really shouldn't be using MLP's for image tasks.
 '''
     
 import os
